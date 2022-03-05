@@ -3916,8 +3916,19 @@ body.is-preload #banner p {
   overflow: hidden;
   -ms-flex: 1;
 }
+.wrapper.spotlight .cuimage {
+  border-radius: 100%;
+  margin: 0 3em 2em 0;
+  width: 22em;
+  height: 22em;
+  overflow: hidden;
+  -ms-flex: 1;
+}
 
 .wrapper.spotlight .image img {
+  border-radius: 100%;
+}
+.wrapper.spotlight .cuimage img {
   border-radius: 100%;
   width: 100%;
 }
@@ -3936,6 +3947,9 @@ body.is-preload #banner p {
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .image {
+  margin: 0 0 2em 3em;
+}
+.wrapper.spotlight:nth-child(2n - 1) .cuimage {
   margin: 0 0 2em 3em;
 }
 
