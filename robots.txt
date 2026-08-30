@@ -1,13 +1,4 @@
-User-agent: Googlebot
-Disallow: 
-User-agent: googlebot-image
-Disallow: 
-User-agent: googlebot-mobile
-Disallow: 
-User-agent: MSNBot
-Disallow: 
-User-agent: ia_archiver
-Disallow: 
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Allow: /
+
+Sitemap: https://nitin2806.github.io/sitemap.xml
